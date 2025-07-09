@@ -73,3 +73,10 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# FAB에서 받은 에셋 무시 (전체 Content/FAB 폴더)
+Content/FAB/
+
+# 커스텀 에셋/코드 폴더는 포함
+!Content/MyCustom/*
+!Source/MyProject/*
